@@ -58,7 +58,7 @@ public class OrderServices {
                 billRepository.save(bill);
                 return "order success";
             }else {
-                return "stock is empty";
+                return "stock is now empty";
             }
         }
         else {
